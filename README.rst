@@ -453,8 +453,7 @@ If you have multiple requirement files make sure you create a hook for each file
             args: [requirements-lint.in]
             files: ^requirements-lint\.(in|txt)$
           - id: pip-compile
-            name: pip-compile requirements.txt
-            args: [requirements.in]
+            name: pip-compile requirements.in
             files: ^requirements\.(in|txt)$
 
 
